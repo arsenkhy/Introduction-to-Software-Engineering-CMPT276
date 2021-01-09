@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="ca.cmpt276.as3.activityUI.MainMenu">
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/font1"
+        android:textSize="24sp"
+        android:layout_marginBottom="200dp"
+        android:text="Play Game!" />
+
+    <Button
+        android:id="@+id/optionsButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/font1"
+        android:textSize="24sp"
+        android:layout_marginBottom="130dp"
+        android:text="Options" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/font1"
+        android:textSize="24sp"
+        android:layout_marginBottom="60dp"
+        android:text="Help" />
+
+    <ImageView
+        android:id="@+id/sus1"
+        android:layout_width="200dp"
+        android:layout_height="182dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="110dp"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus2"
+        android:layout_width="200dp"
+        android:layout_height="182dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="110dp"
+        android:scaleX="-1"
+        app:srcCompat="@drawable/sus" />
+</RelativeLayout>

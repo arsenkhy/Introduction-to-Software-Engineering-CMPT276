@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ImposterSeeker</string>
+
+    <string-array name="boardSizes">
+        <item>4 x 6</item>
+        <item>5 x 10</item>
+        <item>6 x 15</item>
+    </string-array>
+
+    <string-array name="imposterSelection">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="default_times_played">0</string>
+    <string name="default_board_size">4 x 6</string>
+    <string name="default_imposter_count">6</string>
+
+    <string name="linkToHomepage">
+        <a href="https://opencoursehub.cs.sfu.ca/jackt/grav-cms/cmpt276-2/home">CMPT 276 Homepage</a>
+    </string>
+
+    <string name="image1">
+        <a href="https://www.reddit.com/r/AmongUs/comments/iv6w4g/i_think_you_all_know_the_drill_dead_body_pngs/">Image1</a>
+    </string>
+
+    <string name="image2">
+        <a href="https://among-us-new.aerobaticapp.com/among-us-red">Image2</a>
+    </string>
+
+    <string name="image3">
+        <a href="https://www.citypng.com/photo/4729/red-among-us-character-png">Image3</a>
+    </string>
+
+    <string name="image4">
+        <a href="https://www.keengamer.com/articles/guides/6-simple-tips-to-be-the-sneakiest-impostor-in-among-us/">Image4</a>
+    </string>
+
+    <string name="image5">
+        <a href="https://www.pcgamer.com/among-us-crossplay-pc-and-mobile/">Image5</a>
+    </string>
+
+    <string name="image6">
+        <a href="https://i2.wp.com/joshswiller.com//wp-content/uploads/2020/10/Background-Among-Us-Space-3.png">Image6</a>
+    </string>
+
+    <string name="font">
+        <a href="https://www.fontget.com/discover/among-us/">Fonts source</a>
+    </string>
+
+
+
+</resources>
